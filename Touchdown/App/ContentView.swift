@@ -12,8 +12,26 @@ struct ContentView: View {
 
   // MARK: - BODY
   var body: some View {
-    FooterView()
-      .padding(.horizontal, 40)
+    ZStack {
+      VStack(spacing: 0) {
+        NavigationBarView()
+          .padding(.horizontal, 15)
+          .padding(.bottom)
+          // top padding that uses the device specs to know how far the padding should be
+          // notch-proof
+          .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+          .background(Color.white)
+          .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
+        
+        Spacer()
+        
+        FooterView()
+          .padding(.horizontal, 40)
+          .padding()
+      } //: VSTACK
+      .background(colorBackground.ignoresSafeArea(.all, edges: .all))
+    } //: ZSTACK
+    .ignoresSafeArea(.all, edges: .top)
   }
 }
 

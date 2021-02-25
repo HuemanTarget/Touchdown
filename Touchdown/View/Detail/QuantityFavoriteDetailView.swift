@@ -10,12 +10,14 @@ import SwiftUI
 struct QuantityFavoriteDetailView: View {
   // MARK: - PROPERTIES
   @State private var counter: Int = 0
+  @State private var isLiked: Bool = false
   
   // MARK: - BODY
   var body: some View {
     HStack(alignment: .center, spacing: 6, content: {
       Button(action: {
         if counter > 0 {
+          feedback.impactOccurred()
           counter -= 1
         }
       }, label: {
@@ -28,6 +30,7 @@ struct QuantityFavoriteDetailView: View {
       
       Button(action: {
         if counter < 100 {
+          feedback.impactOccurred()
           counter += 1
         }
       }, label: {
@@ -36,9 +39,12 @@ struct QuantityFavoriteDetailView: View {
       
       Spacer()
       
-      Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+      Button(action: {
+        feedback.impactOccurred()
+        isLiked.toggle()
+      }, label: {
         Image(systemName: "heart.circle")
-          .foregroundColor(.pink)
+          .foregroundColor(isLiked ? .pink : .black)
       })
     }) //: HSTACK
     .font(.system(.title, design: .rounded))

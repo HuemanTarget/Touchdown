@@ -16,6 +16,7 @@
 		4E39208A25E5D35E00455F65 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E39208925E5D35E00455F65 /* HeaderDetailView.swift */; };
 		4E39208D25E5D4CA00455F65 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E39208C25E5D4CA00455F65 /* TopPartDetailView.swift */; };
 		4E39209025E8233700455F65 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E39208F25E8233700455F65 /* CustomShape.swift */; };
+		4E39209325E8289700455F65 /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E39209225E8289700455F65 /* RatingsSizesDetailView.swift */; };
 		4E5B37A225E583CA00660CBD /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B37A125E583CA00660CBD /* TouchdownApp.swift */; };
 		4E5B37A425E583CA00660CBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5B37A325E583CA00660CBD /* ContentView.swift */; };
 		4E5B37A625E583CA00660CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5B37A525E583CA00660CBD /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		4E39208925E5D35E00455F65 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		4E39208C25E5D4CA00455F65 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		4E39208F25E8233700455F65 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		4E39209225E8289700455F65 /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
 		4E5B379E25E583CA00660CBD /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5B37A125E583CA00660CBD /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		4E5B37A325E583CA00660CBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				4E39208625E5D26600455F65 /* NavigationBarDetailView.swift */,
 				4E39208925E5D35E00455F65 /* HeaderDetailView.swift */,
 				4E39208C25E5D4CA00455F65 /* TopPartDetailView.swift */,
+				4E39209225E8289700455F65 /* RatingsSizesDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				4E5B37F425E5B9D400660CBD /* ProductModel.swift in Sources */,
 				4E5B37DD25E59A8B00660CBD /* FeaturedItemView.swift in Sources */,
 				4E39207D25E5C5C800455F65 /* BrandGridView.swift in Sources */,
+				4E39209325E8289700455F65 /* RatingsSizesDetailView.swift in Sources */,
 				4E5B37A225E583CA00660CBD /* TouchdownApp.swift in Sources */,
 				4E5B37CA25E5880A00660CBD /* Constant.swift in Sources */,
 				4E39208725E5D26600455F65 /* NavigationBarDetailView.swift in Sources */,
